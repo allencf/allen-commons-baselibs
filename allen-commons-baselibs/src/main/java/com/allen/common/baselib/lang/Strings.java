@@ -29,7 +29,7 @@ public class Strings extends StringUtils{
 	 * @param str
 	 * @return
 	 */
-	public static boolean isBland(String str){
+	public static boolean isBlanK(String str){
 		if(str == null)
 			return true;
 		
@@ -52,7 +52,7 @@ public class Strings extends StringUtils{
 		System.out.println(str.length());
 		//char c = str.charAt(0);
 		//System.out.println(c);
-		System.out.println(isBland(str));
+		System.out.println(isBlank(str));
 
 	}
 
